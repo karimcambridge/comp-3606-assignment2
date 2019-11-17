@@ -22,8 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="46dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="47dp"
         android:ems="10"
         android:inputType="textPersonName" />
 
@@ -44,8 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="145dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="148dp"
         android:ems="10"
         android:inputType="textPersonName" />
 
@@ -66,9 +66,9 @@
         android:layout_width="307dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="46dp"
-        android:layout_marginBottom="212dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="247dp"
         android:ems="10"
         android:inputType="textPersonName" />
 
@@ -77,8 +77,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginEnd="-1dp"
         android:text="4. What provides a simple feedback about an operation in a small popup?"
         android:textStyle="bold"
         tools:text="4. What provides a simple feedback about an operation in a small popup?" />
@@ -88,74 +92,56 @@
         android:layout_width="309dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginBottom="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="331dp"
         android:ems="10"
         android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="196dp"
-        android:layout_height="wrap_content"
+        android:layout_width="364dp"
+        android:layout_height="42dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="6dp"
-        android:layout_marginBottom="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="379dp"
         android:text="5. What user interface is used for entering and modifying text?"
         android:textStyle="bold"
         tools:text="5. What user interface is used for entering and modifying text?" />
 
     <EditText
         android:id="@+id/editText5"
-        android:layout_width="wrap_content"
+        android:layout_width="311dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginBottom="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="407dp"
         android:ems="10"
         android:inputType="textPersonName" />
-
-    <Button
-        android:id="@+id/buttonF"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="3dp"
-        android:onClick="calculate"
-        android:text="Submit Quiz" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText4"
-        android:layout_alignStart="@+id/buttonF"
-        android:layout_marginTop="-110dp"
-        android:text="Score:" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="459dp"
+        android:text="Score:"
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/editText7"
         android:layout_width="78dp"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView8"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="-18dp"
-        android:layout_marginEnd="6dp"
-        android:ems="10"
-        android:inputType="number" />
-
-    <EditText
-        android:id="@+id/editText8"
-        android:layout_width="66dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView25"
-        android:layout_alignEnd="@+id/textView6"
-        android:layout_marginTop="-3dp"
-        android:layout_marginEnd="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="453dp"
         android:ems="10"
         android:inputType="number" />
 
@@ -163,7 +149,46 @@
         android:id="@+id/textView29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText7"
-        android:layout_alignEnd="@+id/textView25"
-        android:text="Prev Score:" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="532dp"
+        android:text="Prev Score:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="527dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/quizButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="576dp"
+        android:onClick="calculateQuiz"
+        android:text="Submit Quiz" />
+
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="642dp"
+        android:onClick="goBack"
+        android:text="GO BACK" />
+
 </RelativeLayout>
