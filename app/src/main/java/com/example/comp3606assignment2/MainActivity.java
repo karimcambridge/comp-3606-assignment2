@@ -15,7 +15,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private ImageButton introButton, guiButton, quizButton;
     private Button intentsButton, paper1Button, paper2Button;
-    int allBackgroundColor = Color.argb(255, 255, 255, 255);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,14 +46,6 @@ public class MainActivity extends AppCompatActivity {
                 openActivity3();
             }
         });
-
-        Intent intent = getIntent();
-
-        if(intent.hasExtra("BACKGROUND_COLOR")) {
-            RelativeLayout bgElement = (RelativeLayout) findViewById(R.id.main_container);
-            allBackgroundColor = intent.getIntExtra("BACKGROUND_COLOR", 0);
-            bgElement.setBackgroundColor(allBackgroundColor);
-        }
     }
 
     public void onImageButtonClick(View view) {

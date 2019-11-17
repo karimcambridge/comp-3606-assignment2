@@ -37,10 +37,23 @@
         android:layout_height="317dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
         android:layout_marginStart="13dp"
-        android:layout_marginBottom="260dp"
+        android:layout_marginBottom="211dp"
         android:text="@string/paper2"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="642dp"
+        android:onClick="goBack"
+        android:text="GO BACK" />
 
 </RelativeLayout>
