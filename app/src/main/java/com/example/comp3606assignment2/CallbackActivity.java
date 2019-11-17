@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.os.CountDownTimer;
+import android.widget.TextView;
 
 import java.util.Random;
 
@@ -23,6 +25,20 @@ public class CallbackActivity extends AppCompatActivity {
         returnIntent.putExtra("result", returnVal);
         setResult(Activity.RESULT_OK, returnIntent);
         myButton.setOnClickListener(new Button_Clicker());
+
+        final TextView counttime = findViewById(R.id.counttime);
+        new CountDownTimer(15000,1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                counttime.setText(String.valueOf(millisUntilFinished / 1000));
+            }
+            @Override
+            public void onFinish() {
+                myButton.setText("Going back...");
+                counttime.setText("Finished");
+                finish();
+            }
+        }.start();
     }
 
     class Button_Clicker implements Button.OnClickListener{
