@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">comp3606assignment2</string>
+    <string name="Intro_txt">Android is an operating system and programming platform by Google for smartphones and other mobile devices (such as tablets).
+    It can run on many different devices from many different manufacturers. Android includes a software development kit for writing original code and assembling software modules to create apps for Android users. It also provides a marketplace to distribute apps.  All together Android represents an ecosystem for mobile apps. Android is developed by the Open Handset Alliance, which is led by Google. Some of the well-known Android device manufacturers include Acer, HTC, Samsung, LG, Sony Ericsson and Motorola.
+    </string>
+    <string name="gui_txt">A toast provides simple feedback about an operation in a small popup. It only fills the amount of space required for the message and the current activity remains visible and interactive. Toasts automatically disappear after a timeout.</string>
+    <string name="DatePicker">Provides a widget for selecting a date. DatePicker can be used in two modes: calendar mode and spinner mode.</string>
+    <string name="ImageView">Displays image resources, for example Bitmap or Drawable resources. ImageView is also commonly used to apply tints to an image and handle image scaling.</string>
+    <string name="Spinner">Spinners provide a quick way to select one value from a set. In the default state, a spinner shows its currently selected value. Touching the spinner displays a dropdown menu with all other available values, from which the user can select a new one.</string>
+    <string name="EditText">A user interface element for entering and modifying text. When you define an edit text widget, you must specify the R.styleable.TextView_inputType attribute. For example, for plain text input set inputType to "text".</string>
+    <string name="Button">A user interface element the user can tap or click to perform an action.</string>
+    <string name="NumberPicker">A widget that enables the user to select a number from a predefined range. There are two flavors of this widget and which one is presented to the user depends on the current theme.</string>
+    <string name="paper1">The research paper describes the design of a web based intelligent tutoring system for teaching Android Applications Development to students to overcome the difficulties they face. The basic idea of this system is a systematic introduction into the concept of Android Application Development. The system presents the topic of Android Application Development and administers automatically generated problems for the students to solve. The system is automatically adapted at run time to the student’s individual growth. The system provides obvious support for adaptive demonstration constructs. An initial assessment study was done to examine the effect of using the intelligent tutoring system on the performance of students enrolled in Smartphone Applications Development in the University College of Applied Sciences, Gaza. The results showed a positive impact on the evaluators.</string>
+    <string name="paper2">In this research paper/ case, it is strongly noticed that nowadays, technology is increasingly used by human being in every field. As people move from one place to another, many
+    wireless technologies are available to remain in contact with others, without regard of the location. The increasing popularity of
+    Smart Phones has drawn the attention of almost everybody. With increase in technology and
+    user demands, developers started to make apps for other purposes like games, banking, video chats etc. An app can show the data in
+    a similar way as a website, along with other benefits to download the content that can be used offline, in case the Internet is not
+    available. There are many apps available in market today for different Operating Systems i.e. Android, Blackberry and Apple etc., in
+    which Android is having the maximum market share these days.</string>
+    <string name="intro_android_title">Introduction to Android</string>
+</resources>

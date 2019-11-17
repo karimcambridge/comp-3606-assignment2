@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="19dp"
+        android:text="An Intelligent Tutoring System for Learning Android Applications UI Developmentiew"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="78dp"
+        android:text="TextHazem Awni Al Rekhawi Al Azhar University-Gaza - Department of Information Technology Samy S. Abu Naser Al-Azhar University, Gaza, Palestine Date Written: January 18, 2018."
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="391dp"
+        android:layout_height="212dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="152dp"
+        android:text="@string/paper1"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
