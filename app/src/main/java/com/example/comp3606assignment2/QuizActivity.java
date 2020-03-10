@@ -16,6 +16,7 @@ import java.io.FileOutputStream;
 public class QuizActivity extends AppCompatActivity {
     Button quizButton, goBackButton;
     String fileName = "high_scores.txt";
+    String prevScore = "NONE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -101,13 +102,15 @@ public class QuizActivity extends AppCompatActivity {
             score5 =  1;
         }
 
-        finalscore = score1 + score2 + score3 +  + score5;
+        finalscore = score1 + score2 + score3 + score4 + score5;
         finalScoreStr = String.valueOf(finalscore);
         mEdit = (EditText) findViewById(R.id.editText7);
 
-        mEdit.setText(finalScoreStr + "");
+        mEdit.setText(finalScoreStr);
         mEdit = (EditText) findViewById(R.id.editText8);
-        mEdit.setText(readFile(fileName));
+        //mEdit.setText(readFile(fileName));
+        mEdit.setText(prevScore);
+        prevScore = finalScoreStr;
         saveFile(fileName, finalScoreStr);
     }
 
